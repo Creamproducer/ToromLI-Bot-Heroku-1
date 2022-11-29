@@ -2,7 +2,7 @@ token: "lip_xo3ghDVl2kyF1R90hFl1"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"               # Directory containing the engine.
-  name: "fairy-sf"        # Binary name of the engine to use.
+  name: "stockfish"        # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:
     enabled: true                         # Activate polyglot book.
@@ -77,7 +77,7 @@ challenge:                                # Incoming challenges. (Commenting all
     - rated                               # Rated games. 
 
 matchmaking:
-  initial_time: 60                        # Initial time for matchmaking mode.
+  initial_time: 30                        # Initial time for matchmaking mode.
   increment: 1                            # Increment time for matchmaking mode.
   rated: true                            # Activate rated games in matchmaking mode.
   timeout: 5                              # Time until a challenge is canceled. 
